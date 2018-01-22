@@ -1,0 +1,22 @@
+{
+  "name": "typora-theme-journal",
+  "version": "1.0.0",
+  "description": "This toolkit contains a simple theme template, and sample `.md` file for testing and some HTML files for designers/developers to preview/debug css theme right inside their browser.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass --output-style expanded --source-map true --watch template.scss html-preview/theme/test.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karbassi/typora-theme-journal.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karbassi/typora-theme-journal/issues"
+  },
+  "homepage": "https://github.com/karbassi/typora-theme-journal#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
